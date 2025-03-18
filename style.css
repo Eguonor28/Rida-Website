@@ -67,4 +67,9 @@ p {
     flex-direction: column;
     height: 100vh;
   }
+  .rida_img,
+  .order_taxi,
+  .daynnight {
+    padding-bottom: 5%;
+  }
 }
