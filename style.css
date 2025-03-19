@@ -8,6 +8,7 @@ body {
 }
 .section {
   display: flex;
+
   width: 100%;
   height: 100vh;
 }
@@ -29,6 +30,12 @@ body {
   justify-content: center;
   padding: 10px;
 }
+.right_container_items {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
 .rida_img {
   width: 100%;
@@ -48,7 +55,7 @@ a {
   text-decoration: none;
 }
 .driver_app {
-  padding: 0 0 10% 20%;
+  /* padding: 0 0 10% 20%; */
   color: white;
 }
 .order_taxi {
